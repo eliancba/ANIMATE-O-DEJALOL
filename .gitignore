@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Configuración local del jugador
+config.json
+
+# Archivos de audio locales (se preserva la estructura mediante .gitkeep)
+*.wav
+*.mp3
+*.ogg
+*.flac
+!**/.gitkeep
+
+# Entornos de desarrollo y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.bak
